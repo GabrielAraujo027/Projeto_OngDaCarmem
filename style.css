@@ -136,7 +136,35 @@ footer {
     padding-bottom: 15px;
 }
 
-footer > h1{
+footer h1{
     text-align: center;
     margin: auto;
+}
+
+@media screen and (max-width: 500px)
+{
+    header a
+    {
+        float: none;
+    }
+
+    header 
+    {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .itens
+    {
+        float: none;
+        margin-top: 10px;
+    }
+}
+
+.contatos ul li img
+{
+    width: 7vw;
+    height: 7vw;
+    max-width: 46px;
+    max-height: 46px;
 }
